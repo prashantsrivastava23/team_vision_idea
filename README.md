@@ -20,6 +20,8 @@ Probability of rainfall:  1 - ( P( Z < ( rainfall - normally distributed within)
 
 Return Period : (T) = ( N + 1 ) / M
 
-According to Binomial Theorem...
+According to Binomial Theorem,
+
 Flood can Happen : 1 - (1 - p)^n
+
 Flood can't happen : (1 - p)^n = q^n
