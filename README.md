@@ -12,3 +12,6 @@ This will be a three phase process. The determination of the phases is with the 
 If the currently being monitored readings in a particular area crosses a particular point, we would get the message to start Phase 1 (Alerts and warnings to be raised).
 When the occurence of flood is confirmed. According to the intensity and approximated effect, actions will be taken, ie we would get the message to start Phase 2. 
 When the flood has occured and has exceeded the approximated effect, we would recieve the message to start Phase 3. (Vacating the prone areas and shifting of general public if needed)
+
+The Scale: 
+We use the "plotting position method" of the last 35 years of data (return period) to determine if the probability of rainfall to exceed the danger level using standard deviation method and check the following in the standard normal probability table. The return perod takes help from the Wibbles's Formula. Our algorithm collects data for 35 years of discharge range, sorts them and ranks them, and then finds probability of the flood to occur using the Binomial Theorem.
