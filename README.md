@@ -15,3 +15,13 @@ When the flood has occured and has exceeded the approximated effect, we would re
 
 The Scale: 
 We use the "plotting position method" of the last 35 years of data (return period) to determine if the probability of rainfall to exceed the danger level using standard deviation method and check the following in the standard normal probability table. The return period takes help from the Wibbles's Formula. Our algorithm collects data for 35 years of discharge range, sorts them and ranks them, and then finds probability of the flood to occur using the Binomial Theorem.
+
+Probability of rainfall:  1 - ( P( Z < ( rainfall - normally distributed within) / standard deviation ) * 100 ) . 
+
+Return Period : (T) = ( N + 1 ) / M
+
+According to Binomial Theorem : Flood can Happen : 1 - (1 - p)^n
+
+                              : Flood can't happen : (1 - p)^n = q^n
+                              
+                             
